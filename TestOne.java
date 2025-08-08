@@ -1,3 +1,5 @@
+//Find No of Monkeys still left in the tree after eating peanuts and bananas
+
 import java.util.*;
 public class TestOne{
     public static void main(String[] args){
@@ -16,4 +18,5 @@ public class TestOne{
         int s=s1+s2;
         System.out.println("No of Monkeys Remaining: "+(n-s));
     }
+
 }
