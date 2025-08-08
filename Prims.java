@@ -1,4 +1,54 @@
-//Network using Prims
+// *You are working as a network administrator for a company. The company has several computers (nodes) 
+// connected via network cables (edges). The connections are bidirectional, and not all computers are directly 
+// connected to each other.
+
+// Sometimes, when a computer sends a broadcast message, it should reach all other computers in the network
+// in the shortest number of hops (i.e., fewest intermediate computers). You are tasked to simulate this broadcast 
+// operation using Breadth-First Search (BFS).
+
+// Your goal is to write a function that:
+
+// Traverses the network from a given source computer
+
+// Returns the order in which the computers receive the broadcast message
+
+// Assumes each edge takes equal time to traverse	
+
+// Test Case 1 – Small Office Network
+
+// Computers: [A, B, C, D]
+
+// Connections:
+
+// A - B
+// A - C
+// B - D
+
+// Start: A
+
+// Expected Output:
+
+// Broadcast Order: A, B, C, D
+
+// Test Case 2 – Medium Network
+
+// Computers: [P, Q, R, S, T, U]
+
+// Connections:
+
+// P - Q
+// P - R
+// Q - S
+// R - T
+// T - U
+
+// Start: P
+
+// Output :
+
+// Broadcast Order: P, Q, R, S, T, U
+
+// /*
 import java.util.*;
 public class Prims{
     static class Edge {
