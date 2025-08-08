@@ -1,3 +1,4 @@
+//Network using Prims
 import java.util.*;
 public class Prims{
     static class Edge {
